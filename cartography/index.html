@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+
+<head>
+<title>Cartography</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="bootstrap/css/navbar.css" rel="stylesheet">
+<link href="bootstrap/css/custom.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+</head>
+
+<body>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top">
+
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Cartography</a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#code">Code &amp; Paper</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+<!--Fixed navbar -->
+
+
+<div class="container">
+
+    <div class="section">
+    <div class="header"><h2><a name="overview">Overview</a></h2></div>
+    <hr>
+    <div class="block">
+    <img style="float:right;margin-left:10px;margin-bottom:10px" src="probe_distribution.jpg" alt="probe distribution">
+    <p class="front">
+    Existing censorship measurement platforms frequently suffer from poor
+    adoption, insufficient geographic coverage, and scalability problems. In
+    order to overcome these issues, this project builds on top of the already
+    existing <a href="https://atlas.ripe.net">RIPE Atlas</a> platform.  Atlas
+    already comes with good geographic coverage (albeit biased toward the U.S.
+    and Europe as can be seen in the image to the right) and is actively
+    developed.
+    </p>
+    <p class="front">
+    To demonstrate its practicality, we used Atlas to investigate blocking
+    events in Turkey and Russia.  Our measurements uncovered evidence of
+    cooperation between a well-known blogging platform and government
+    authorities for purposes of blocking hosted content.
+    </p>
+    </div>
+    </div>
+
+    <div class="section">
+    <div class="header"><h2><a name="code">Code &amp; Paper</a></h2></div>
+    <hr>
+    <div class="block">
+    <a href="foci2014.pdf">
+    <img style="float:right;margin-left:10px;margin-bottom:10px;border:1px solid" src="paper.png" alt="paper">
+    </a>
+    <p class="front">
+    The outcome of our research project was published in the
+    <a href="https://www.usenix.org/conference/foci14">FOCI'14</a> workshop.
+    You can download the research paper by clicking on the image to the right.
+    </p>
+
+    <p class="front">
+    Our code, <code>atlas_tools</code>, is freely available under the
+    <a href="http://www.gnu.org/licenses/">GPLv3 license</a>.  It is written in
+    pure Python.  You can get a copy of <code>atlas_tools</code> from
+    <a href="https://github.com/NullHypothesis/atlas_tools">GitHub</a>:
+    <pre style="overflow: hidden">git clone https://github.com/NullHypothesis/atlas_tools.git</pre>
+    We are happy to extend our code.  Please feel free to send us patches!
+    </p>
+
+    <p class="front">
+    If you want to cite our paper, please use the following BibTeX record:
+    <pre style="overflow: hidden">
+@inproceedings{foci2014,
+    author = {Collin Anderson and Philipp Winter and Roya},
+    title = {{Global Censorship Detection over the RIPE Atlas Network}},
+    booktitle = {Free and Open Communications on the Internet},
+    publisher = {USENIX},
+    year = {2014},
+    url = {http://cartography.io/foci2014.pdf},
+}</pre>
+    </p>
+    </div>
+    </div>
+
+    <div class="section">
+    <div class="header"><h2><a name="contact">Contact</a></h2></div>
+    <hr>
+    <div class="block">
+    <p class="front">
+    If you have any questions, suggestions, or rants, please contact
+    <a href="mailto:collina@gmail.com">Collin</a>,
+    <a href="mailto:phw@nymity.ch">Philipp</a>, or Roya.
+    </p>
+    </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <p class="text-center">Last updated: <code>2014-07-26</code></p>
+    </div>
+</div>
+
+</body>
+
+</html>
